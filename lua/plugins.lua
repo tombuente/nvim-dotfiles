@@ -11,6 +11,16 @@ return require('packer').startup(function(use)
         as = 'rose-pine'
     }
 
+    use {
+        "catppuccin/nvim",
+        as = "catppuccin" 
+    }
+
+    use {
+        'aktersnurra/no-clown-fiesta.nvim',
+        as = 'no-clown-fiesta'
+    }
+
     use "blazkowolf/gruber-darker.nvim"
 
     use {
@@ -38,6 +48,14 @@ return require('packer').startup(function(use)
             -- Snippets
             { 'L3MON4D3/LuaSnip' },
             { 'rafamadriz/friendly-snippets' },
+        }
+    }
+
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 
+            'nvim-tree/nvim-web-devicons', 
+            opt = true 
         }
     }
 end)

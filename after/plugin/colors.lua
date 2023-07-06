@@ -1,2 +1,4 @@
-vim.cmd.colorscheme('rose-pine')
+scheme = 'no-clown-fiesta'
+--scheme = 'catppuccin-macchiato'
+vim.cmd.colorscheme(scheme)
 

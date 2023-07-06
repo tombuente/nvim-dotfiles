@@ -3,7 +3,7 @@ vim.api.nvim_set_option("clipboard", "unnamed")
 vim.opt.nu = true
 vim.opt.relativenumber = true
 vim.wo.signcolumn = "yes"
-vim.opt.nuw = 12
+vim.opt.nuw = 4
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
